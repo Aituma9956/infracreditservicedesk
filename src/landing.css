@@ -1,0 +1,216 @@
+.column{
+    display: flex;
+    height: 100vh;
+  }
+  .first-column{
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+  }
+  
+  .one{
+    margin-left: 30px;
+    display: flex;
+  
+  }
+  .onee{
+    display: none;
+  }
+  .nav-text {
+    display: none;
+
+  }
+  
+  .fcmb-logo{
+    height: 40px;
+    margin-top: 10px;
+  }
+  
+  .two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+  .two-text{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .input {
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    width: 350px;
+  }
+  .input-text{
+    font-size: 17px;
+    margin-left: 25px;
+    color: #277dbd;
+  }
+  .input-login{
+    background-color: #277dbd;
+    color: white;
+    border-radius:20px;
+    height: 38px;
+    align-self: center;
+    margin-left: 60px;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+    margin-top: 0px;
+  }
+  .input-login:hover{
+    background-color: #35709e;
+  }
+  .animated-text {
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-top: 170px;
+    font-size: 35px;
+    font-weight: 500;
+    color:#277dbd;
+    max-width: 80%;
+
+  }
+
+  .second-column{
+    background-image: url(./img/download6.webp);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      width: 50%;
+  }
+  
+  .background-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+     
+  }
+  @media screen and (min-width: 200px) and (max-width: 475px) {
+    .first-column {
+      display: none; 
+    }
+    .onee{
+      margin-left: 30px;
+    display: flex;
+    
+    }
+    .nav-text{
+      color: white;
+      position: relative;
+      z-index: 999;
+
+    }
+    .fcmb-logoo{
+      height: 45px;
+      margin-top: 10px;
+      z-index: 999;
+      background-color: white;
+    }
+  
+    .second-column {
+      width: 100%; 
+    
+    }
+  }
+  @media (min-width:496px) and (max-width:600px){
+    .first-column {
+      display: none; 
+    }
+    .onee{
+      margin-left: 30px;
+      display: flex;
+    
+    }
+    .nav-text{
+      color: white;
+      position: relative;
+      z-index: 999;
+      margin-left: 10px;
+      margin-top: 25px;
+      font-size: 20px;
+    }
+    .fcmb-logoo{
+      height: 40px;
+      margin-top: 10px;
+      z-index: 999;
+      background-color: white;
+    }
+    
+  
+    .second-column {
+      width: 100%; 
+    }
+  }
+  @media (min-width:601px) and (max-width:768px){
+  /* .first-column {
+    display: none; 
+  }
+  .onee{
+    margin-left: 30px;
+  display: flex;
+  
+  }
+  .nav-text{
+    color: white;
+    position: relative;
+    z-index: 999;
+    
+  }
+  .fcmb-logo{
+    height: 50px;
+    margin-top: 10px;
+    z-index: 999;
+  }
+
+  .second-column {
+    width: 100%; 
+    
+  
+  } */
+.first-column{
+  display: none; 
+}
+.onee{
+  margin-left: 30px;
+  display: flex;
+}
+.nav-text{
+  color: white;
+  position: relative;
+  z-index: 999;
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+.fcmb-logoo{
+  height: 40px;
+  margin-top: 10px;
+  z-index: 999;
+  background-color: white;
+}
+
+
+.second-column {
+  width: 100%; 
+
+  
+
+}
+}
+@media (min-width:768px) and (max-width:992px){
+  .animated-text{
+    font-size: 35px;
+  }
+}
